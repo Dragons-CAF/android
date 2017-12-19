@@ -36,7 +36,7 @@
 
   <!--DEVICE REPOS-->
   <project name="Dragons-CAF/android_device_qcom_cheeseburger" path="device/qcom/msm8998" remote="github" revision="O.1"/>
-  <project name="Dragons-CAF/android_kernel_oneplus_cheeseburger" path="kernel/oneplus/msm8998" remote="github" revision="O.1"/>
+  <project name="Dragons-CAF/android_kernel_oneplus_cheeseburger" path="kernel/msm-4.4" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_vendor_oneplus_cheeseburger" path="vendor/oneplus/cheeseburger" remote="github" revision="O.1"/>
  
   <!--QCOM HALs-->
