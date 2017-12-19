@@ -24,6 +24,7 @@
   </project>
   <project name="Dragons-CAF/android_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="github" revision="O.1"/>    
   <project name="Dragons-CAF/android_frameworks_base" path="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O.1"/>
+  <project name="Dragons-CAF/android_frameworks_support" path="frameworks/support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_system_bt" path="system/bt" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_system_core" path="system/core" groups="pdk" remote="github" revision="O.1"/>
@@ -31,19 +32,19 @@
   <project name="Dragons-CAF/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_vendor_qcom_opensource_fm" path="vendor/qcom/opensource/fm" remote="github" revision="O.1"/>
+  <project name="Dragons-CAF/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="O.1"/>
 
   <!--DEVICE REPOS-->
   <project name="Dragons-CAF/android_device_qcom_cheeseburger" path="device/qcom/msm8998" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_kernel_oneplus_cheeseburger" path="kernel/oneplus/msm8998" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_vendor_oneplus_cheeseburger" path="vendor/oneplus/cheeseburger" remote="github" revision="O.1"/>
  
-  <!--ONEPLUS HALs-->
-  <project name="OnePlusOSS/android_hardware_qcom_audio" path="hardware/qcom/audio" groups="qcom,default" remote="github" revision="oneplus/QC8998_O_8.0"/>
-  <project name="OnePlusOSS/android_hardware_qcom_bt" path="hardware/qcom/bt" groups="qcom" remote="github" revision="oneplus/QC8998_O_8.0"/>
-  <project name="OnePlusOSS/android_hardware_qcom_camera" path="hardware/qcom/camera" groups="qcom,default" remote="github" revision="oneplus/QC8998_O_8.0"/>
-  <project name="OnePlusOSS/android_hardware_qcom_display" path="hardware/qcom/display" groups="qcom,default" remote="github" revision="oneplus/QC8998_O_8.0"/>  
-  <project name="OnePlusOSS/android_hardware_qcom_media" path="hardware/qcom/media" groups="qcom,default" remote="github" revision="oneplus/QC8998_O_8.0"/>
-  <project name="OnePlusOSS/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="oneplus/QC8998_O_8.0"/>
+  <!--QCOM HALs-->
+  <project name="Dragons-CAF/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="O.1"/>
+  <project name="Dragons-CAF/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="O.1"/>
+  <project name="Dragons-CAF/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="github" revision="O.1"/>
+  <project name="Dragons-CAF/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="O.1"/>  
+  <project name="Dragons-CAF/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="O.1"/>
   
   <!--CAF REPOS-->
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="e0463ec135c58a794fc4d737da7bb5e7cc75febb" upstream="refs/heads/uefi.lnx.6.4.9.r1-rel"/>
