@@ -1,15 +1,21 @@
+Android Source based on Code Aurora Forum (CAF)  
+==============================================================
+ 
+ **Tag : LA.UM.6.4.r1-05400-8x98.0**  
+ **Version : 8.1**  
+
+ **Supported device(s)**  
+ 
+   - OnePlus 5 (Cheeseburger)
+ 
 Downloading the Source  
 ==============================================================    
 
-1. Repo sync all code with default.xml  
+1. Initialize the repo with default.xml  
 `repo init -u git://github.com/Dragons-CAF/android.git -b O.1`
-   `repo sync`
-2. Root your device   
-3. Pull the necessary libraries from your device by executing the script `pull_library.sh`   
 
-NOTE : If you face errors like "BlahBlah" file not found or Permission Denied, connect your device in TWRP mode, mount System & Pull the blobs)
-
-4. After pull_library.sh be executed, a directory  named "vendor" should be generated. Copy this directory to root of project.
+2. Sync the complete source code   
+`repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags`
 
 Building the System  
 ==============================================================  
