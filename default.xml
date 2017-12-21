@@ -28,6 +28,7 @@
   <project name="Dragons-CAF/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_system_bt" path="system/bt" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_system_core" path="system/core" groups="pdk" remote="github" revision="O.1"/>
+  <project name="Dragons-CAF/android_system_vold" path="system/vold" groups="pdk" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_external_skia" path="external/skia" groups="pdk,qcom_msm8x26" remote="github" revision="O.1"/>  
   <project name="Dragons-CAF/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="github" revision="O.1"/>
@@ -551,7 +552,6 @@
   <project name="platform/system/tools/hidl" path="system/tools/hidl" revision="5df3ce92ce5929c6125e01af5b7d9eb2f302630e" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
   <project name="platform/system/tpm" path="system/tpm" revision="987689803d813efb9b011236a7853c8f3edba1f6" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
   <project name="platform/system/update_engine" path="system/update_engine" revision="2038535443db6c5386a94a3bc88189481091961d" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
-  <project name="platform/system/vold" path="system/vold" revision="8c81c5270bf9e9d4abe9c4ed708e5c43e80e6995" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
   <project name="platform/test/vts" path="test/vts" revision="813e85a22a36fb996e10f2c436a01a87e51737c4" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
   <project name="platform/test/vts-testcase/fuzz" path="test/vts-testcase/fuzz" revision="1827b3d57935677f0ded5f785385595f50ead1a8" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
   <project name="platform/test/vts-testcase/hal" path="test/vts-testcase/hal" revision="36fce1dd13f287dd472d48886db569fea7be1f47" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
