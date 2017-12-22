@@ -24,6 +24,8 @@
   </project>
   <project name="Dragons-CAF/android_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="github" revision="O.1"/>    
   <project name="Dragons-CAF/android_frameworks_base" path="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O.1"/>
+  <project name="Dragons-CAF/android_frameworks_av" path="frameworks/av" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O.1"/>
+  <project name="Dragons-CAF/android_frameworks_native" path="frameworks/native" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_frameworks_support" path="frameworks/support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_system_bt" path="system/bt" remote="github" revision="O.1"/>
@@ -38,7 +40,7 @@
   <!--DEVICE REPOS-->
   <project name="Dragons-CAF/android_device_qcom_cheeseburger" path="device/qcom/msm8998" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_kernel_oneplus_cheeseburger" path="kernel/msm-4.4" remote="github" revision="O.1"/>
-  <project name="Dragons-CAF/android_vendor_oneplus_cheeseburger" path="vendor/oneplus/cheeseburger" remote="github" revision="O.1"/>
+  <project name="Dragons-CAF/android_vendor_oneplus_cheeseburger" path="vendor/oneplus" remote="github" revision="O.1"/>
  
   <!--QCOM HALs-->
   <project name="Dragons-CAF/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="O.1"/>
@@ -346,7 +348,6 @@
   <project name="platform/external/zlib" path="external/zlib" revision="476598b025f3f205bdb7d3fbb0b3789679bfadc4" upstream="refs/heads/android-external.lnx.2.9.2.r1-rel"/>
   <project name="platform/external/zopfli" path="external/zopfli" revision="069cb023c39358bc0e1b3dc0397b8fcdd84b4d44" upstream="refs/heads/android-external.lnx.2.9.2.r1-rel"/>
   <project name="platform/external/zxing" path="external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb" upstream="refs/heads/android-external.lnx.2.9.2.r1-rel"/>
-  <project name="platform/frameworks/av" path="frameworks/av" revision="a60c63a51281f6972f9a0f53b34c588476013480" upstream="refs/heads/av-aosp.lnx.2.9.2.r1-rel"/>
   <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="7273219b3c1634618813f5e1b55df4e432cde268" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
   <project name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="5db188878b2b20c02e7cbd3ef50ae46faf2f056d" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
   <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="85534a6340718a380bb8851d9d2394f2654ccf77" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
@@ -357,7 +358,6 @@
   <project name="platform/frameworks/minikin" path="frameworks/minikin" revision="9162a46bcc099f17311f55817a6a58df69906ad3" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
   <project name="platform/frameworks/ml" path="frameworks/ml" revision="48a9c24c81269d6f348df7d6bc59185b02c9e45c" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
   <project name="platform/frameworks/multidex" path="frameworks/multidex" revision="2ddc1a11bb51be9521e5dce4b8d1ad85028d9da0" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
-  <project name="platform/frameworks/native" path="frameworks/native" revision="4d0687badc050efc15383188308086b2a36b9778" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
   <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="a0d4e3108663202564a6833b76770075b8e5b767" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
   <project name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="c01efdffd5fdf8a7cdedff8281af0a7db30b3c9f" upstream="refs/heads/bt.lnx.3.2.r2-rel"/>
   <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="397f1e5be11362ce66864075388a721e322d5839" upstream="refs/heads/android-framework.lnx.2.9.2.r1-rel"/>
