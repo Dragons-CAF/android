@@ -37,6 +37,9 @@
   <project name="Dragons-CAF/android_vendor_qcom_opensource_fm" path="vendor/qcom/opensource/fm" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="O.1"/>
 
+  <!--SDCLang-->
+  <project name="Dragons-CAF/android_device_dragons_SDCLang" path="device/dragons/SDCLang" remote="github" revision="O.1"/>
+
   <!--DEVICE REPOS-->
   <project name="Dragons-CAF/android_device_qcom_cheeseburger" path="device/qcom/msm8998" remote="github" revision="O.1"/>
   <project name="Dragons-CAF/android_kernel_oneplus_cheeseburger" path="kernel/msm-4.4" remote="github" revision="O.1"/>
